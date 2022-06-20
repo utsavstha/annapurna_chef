@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 
 class AuthController extends ChangeNotifier {
   bool isLoading = true;
-
   String message = '';
 
   late HttpNetworkRequest httpRequest;
