@@ -202,8 +202,6 @@ class _DashboardState extends ConsumerState<Dashboard> {
                               var parsedDate = DateTime.parse(
                                   data[index].items[0].createdAt);
                               var dateNow = DateTime.now();
-                              var sinceMins =
-                                  dateNow.difference(parsedDate).inMinutes;
                               return Card(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
