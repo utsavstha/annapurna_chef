@@ -189,7 +189,7 @@ class _DashboardState extends ConsumerState<Dashboard> {
                             ),
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 20,
                         ),
                         const Text("Order Queue",
