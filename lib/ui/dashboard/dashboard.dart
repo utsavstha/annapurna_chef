@@ -228,7 +228,7 @@ class _DashboardState extends ConsumerState<Dashboard> {
                                             padding: const EdgeInsets.all(10.0),
                                             child: Column(
                                               children: [
-                                                Text("ORDERED ITEMS",
+                                                const Text("ORDERED ITEMS",
                                                     style: TextStyle(
                                                         color: colorGreyText,
                                                         fontSize: 12)),
