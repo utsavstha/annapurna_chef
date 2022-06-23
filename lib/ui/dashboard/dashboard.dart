@@ -199,9 +199,6 @@ class _DashboardState extends ConsumerState<Dashboard> {
                           child: ListView.builder(
                             itemCount: data.length,
                             itemBuilder: (context, index) {
-                              var parsedDate = DateTime.parse(
-                                  data[index].items[0].createdAt);
-                              var dateNow = DateTime.now();
                               return Card(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
