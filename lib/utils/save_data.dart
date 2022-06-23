@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Works as a wrapper for shared  to hold key value pairs
+/// Works as a wrapper for shared preferences to hold key value pairs
 class SaveData {
   static String token = "token";
   static String email = "email";
