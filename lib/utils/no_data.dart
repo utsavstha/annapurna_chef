@@ -1,8 +1,6 @@
 import 'package:annapurna_chef/constants/colors.dart';
 import 'package:flutter/material.dart';
 
-/// This component is used when the List<Data> for transactions is empty to notify
-/// the user that there is no data
 class NoData extends StatelessWidget {
   const NoData({Key? key}) : super(key: key);
 
