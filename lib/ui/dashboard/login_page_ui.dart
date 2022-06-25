@@ -51,7 +51,6 @@ class _LoginPageState extends ConsumerState<LoginPage> {
         .viewInsets
         .bottom; // we are using this to determine Keyboard is opened or not
     double defaultLoginSize = size.height - (size.height * 0.2);
-    double defaultRegisterSize = size.height - (size.height * 0.1);
 
     return Scaffold(
       body: Consumer(
