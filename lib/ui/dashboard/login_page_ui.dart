@@ -47,9 +47,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    double viewInset = MediaQuery.of(context)
-        .viewInsets
-        .bottom; // we are using this to determine Keyboard is opened or not
+
     double defaultLoginSize = size.height - (size.height * 0.2);
 
     return Scaffold(
